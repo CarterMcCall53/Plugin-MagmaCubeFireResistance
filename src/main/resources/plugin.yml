@@ -1,0 +1,4 @@
+name: MagmaCubeFireResistance
+version: '${version}'
+main: dev.cmccall.magmacubefireresistance.MagmaCubeFireResistance
+api-version: 1.18
