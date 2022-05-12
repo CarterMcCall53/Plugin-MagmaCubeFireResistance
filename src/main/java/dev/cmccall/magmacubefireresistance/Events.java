@@ -15,7 +15,7 @@ public class Events implements Listener {
         if (attacker == EntityType.PLAYER) {
             var victim = e.getEntityType();
             if (victim == EntityType.MAGMA_CUBE) {
-                var numGen = Math.random() * 1000;
+                var numGen = Math.random() * 250;
                 int num = (int) numGen;
                 if (num == 1) {
                     Player player = (Player) e.getDamager();
